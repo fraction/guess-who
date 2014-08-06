@@ -1,6 +1,6 @@
 {
   "name": "guess-who",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "Fraction <us@fraction.io> (http://fraction.io/)",
   "description": "Extract names from usernames and email addresses.",
   "contributors": [
