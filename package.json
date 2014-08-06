@@ -1,0 +1,36 @@
+{
+  "name": "guess-who",
+  "version": "1.0.0",
+  "author": "Fraction <us@fraction.io> (http://fraction.io/)",
+  "description": "Extract names from usernames and email addresses.",
+  "contributors": [
+    "Christian Bundy <me@christianbundy.com> (http://christianbundy.com/)"
+  ],
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fraction/guess-who.git"
+  },
+  "keywords": [
+    "name",
+    "username",
+    "email",
+    "extract",
+    "census"
+  ],
+  "dependencies": {
+    "fuzzyset.js" : "0.0.x",
+    "line-reader" : "0.2.x"
+  },
+  "devDependencies" : {
+    "mocha" : "*",
+    "chai": "*"
+  },
+  "analyze": false,
+  "engines": {
+    "node": ">=0.10"
+  }
+}
