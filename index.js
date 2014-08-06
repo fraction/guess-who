@@ -5,7 +5,13 @@ var guessWho = function (input, cb) {
   gw.validate(input, function (err, usernames) {
     if (err) { throw err; }
 
-    gw.readCensusNames(gw.config.namefilePaths, function (list) {
+    var paths = [];
+
+    gw.config.namefilePaths.forEach(function (path) {
+      paths.push(__dirname + path);
+    });
+
+    gw.readCensusNames(paths, function (list) {
       // Add each name to our fuzzyset dictionary.
       list.forEach(function (item) {
         fuzzy.add(item.name);
