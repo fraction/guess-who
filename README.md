@@ -4,10 +4,18 @@ Extract names from usernames and email addresses with Node.js.
 
 ## Installation
 
-Once you have [Node](http://nodejs.org/download/) installed, just add this to your project directory.
+To add this to your existing project, install this as an NPM module.
 
-```
+```sh
 npm install guess-who
+```
+
+Otherwise, clone the repo, install dependencies, and run the example.
+
+```sh
+git clone https://github.com/fraction/guess-who.git && cd guess-who
+npm install
+node examples/name-from-email
 ```
 
 ## Usage
@@ -30,7 +38,5 @@ Take a look at the examples directory to see what else can be done.
 Please [open an issue](https://github.com/fraction/guess-who/issues/new) for questions and concerns.
 
 ## Contributing
-
-To
 
 Fork the project, commit your changes, and [open a pull request](https://github.com/fraction/guess-who/compare/).
