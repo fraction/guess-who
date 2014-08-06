@@ -7,6 +7,7 @@ var guessWho = function (input, cb) {
 
     var paths = [];
 
+    // Resolve for relative path names.
     gw.config.namefilePaths.forEach(function (path) {
       paths.push(__dirname + path);
     });
